@@ -1,0 +1,59 @@
+# python backend
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# virtual environments
+venv/
+.env/
+.venv/
+
+# environment
+.env
+*.env
+
+# logs
+*.log
+logs/
+
+# search engine data (plz be careful!!)
+data/
+cache/
+index/
+indexes/
+*.index
+*.bin
+
+# backend runtime cache
+backend/memory/cache_data/
+
+# frontend
+node_modules/
+dist/
+build/
+
+# user specific config (untag this when we actually have one!!!)
+# frontend/public/user-config.json
+
+# shit poop junk
+.DS_Store
+Thumbs.db
+
+# ide (plz choose one and see wut to do, i have no idea on which ur gonna use)
+# .vscode/
+.idea/
+
+# temp
+tmp/
+temp/
+*.tmp
+
+# coverage / test shit
+.coverage
+htmlcov/
+.pytest_cache/
+
+# untag if u gen docs
+# docs/_build/
